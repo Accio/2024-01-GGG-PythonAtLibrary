@@ -23,6 +23,6 @@ Eine Einfürhung in Programmierung und Datenanaylse mit Python.
 
 Um die Beispiele zu Hause zu probieren, kann man die Code in [2024-11-PythonAtCarpentry-GGG-Teil1-Entwurf.ipynb](./2024-11-PythonAtCarpentry-GGG-Teil1-Entwurf.ipynb) auf [JupyterLab](https://jupyter.org/try-jupyter/lab/) laufen lassen. JupyterLab ist frei zugänglich für alle.
 
-## Teil 2: Logik der Programmierung mit Listen, bedingte Anweisungen, Schleifen, etc.
+## Teil 2: Logik der Programmierung mit Listen, *if-else* , *for* Schleifen, etc.
 
 Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren.
