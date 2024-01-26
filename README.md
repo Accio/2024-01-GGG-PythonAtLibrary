@@ -25,4 +25,4 @@ Um die Beispiele zu Hause zu probieren, kann man die Code in [2024-01-PythonAtCa
 
 ## Teil 2: Logik der Programmierung mit Listen, *if-else* , *for* Schleifen, etc.
 
-Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren.
+Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren. Siehe [2024-01-PythonAtCarpentry-GGG-Teil1-Entwurf.py](./2024-01-PythonAtCarpentry-GGG-Teil1-Entwurf.py).
