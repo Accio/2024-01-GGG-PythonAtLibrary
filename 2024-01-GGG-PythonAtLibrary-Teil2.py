@@ -198,11 +198,11 @@ for i in range(12):
 print(s)
 
 
-# In[12]:
+# In[29]:
 
 
 for index, name in enumerate(team):
-    print('Der ' + str(index+1) + '. spieler heute heisst' + str(name))
+    print('Der ' + str(index+1) + '. spieler heute auf dem Spielplatz heisst ' + str(name))
 
 
 # In[13]:
