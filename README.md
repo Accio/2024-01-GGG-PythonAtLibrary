@@ -8,7 +8,11 @@ Der Kurs *Python@Library* ist Teil vom der Veranstaltungsserie *Next GGGeraratio
 
 ## Motivation und Logistik
 
-Der Kurs ist für Schüler in der Sekundarschule zwischen 12 und 16 konzipiert. Das Ziel ist die Interesse an Datenanalyse und Programmierung zu wecken, und einen Eindruck über eine Berufslehre als Informatiker in der Forschung zu vermitteln. Die Anzahl der Teilnehmer ist auf 20 limitiert. [Eine Anmeldung hier ist notwendig](https://www.stadtbibliothekbasel.ch/de/python-library-_content---1--1007--2902.html). Ab Ende Dezember 2023 ist der Kurs ausgebucht.
+Der Kurs ist für Schüler in der Sekundarschule zwischen 12 und 16 konzipiert. Das Ziel ist die Interesse an Datenanalyse und Programmierung zu wecken, und einen Eindruck über eine Berufslehre als Informatiker in der Forschung zu vermitteln.
+
+Mehr Details über das Ziel und die Motivation von der Veranstaltung findet man in diesem Schreiben: [2024-01-GGG-PythonAtLibrary-schreiben.pdf](./2024-01-GGG-PythonAtLibrary-schreiben.pdf).
+
+Die Anzahl der Teilnehmer ist auf 20 limitiert. [Eine Anmeldung hier ist notwendig](https://www.stadtbibliothekbasel.ch/de/python-library-_content---1--1007--2902.html). Ab Ende Dezember 2023 ist der Kurs ausgebucht.
 
 Der Kurs hat zwei Teile:
 
