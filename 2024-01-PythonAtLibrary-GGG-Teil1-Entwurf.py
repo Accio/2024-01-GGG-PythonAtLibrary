@@ -262,3 +262,101 @@ trial_data[['Behandlung', 'Vor', 'Nach']].to_csv("20240126-simulated-trial-data.
 # 2. Wenn wir davon ausgehen, dass Pille A, Pille B, Pille C jeweilse Placebo, ein neu Medikament von einer niedriger Dose, und das selbe neue Medikament von einer höheren Dose sind. Welche Schlussfolgerungen können wir ziehen?
 # 3. Um das Medikament zu mehr Patienten bringen, worauf müssen wir noch beachten?
 # 4. Was können wir noch mit den Daten machen? Falls Du Lust und Zeit hast, probiere [ChatGPT](https://chat.openai.com/) oder ähnliche Tools zu benutzen, um mit den Daten bzw. mit unseren Code zu spielen, z.B. neue Funktionalität hinzufügen oder andere Visualisierungen zu realisieren.
+
+# ## Ein Prompt für ChatGPT
+Plotte der Unterschied gegenüber der Spalte Pille in der folgenden Tabelle mit boxplot in Python:  
+Name 	Pille 	Vor 	Nach 	Unterschied
+0 	Silas 	C 	7.3 	4.0 	-3.3
+1 	Yann 	B 	8.1 	6.0 	-2.1
+2 	Pascal 	B 	8.7 	7.0 	-1.7
+3 	Thirushandhini 	C 	10.0 	4.0 	-6.0
+4 	Jannick 	C 	6.9 	3.0 	-3.9
+5 	Dalmika 	C 	9.0 	6.0 	-3.0
+6 	Peter 	B 	8.1 	5.0 	-3.1
+7 	Diego 	A 	8.7 	6.0 	-2.7
+8 	Tom 	B 	7.7 	4.0 	-3.7
+9 	Arwin 	C 	7.8 	4.0 	-3.8
+10 	Valery 	B 	7.7 	7.0 	-0.7
+11 	Stefan 	A 	8.8 	7.0 	-1.8
+12 	Susanne 	B 	6.7 	7.0 	0.3
+13 	Simon 	A 	10.0 	9.0 	-1.0
+14 	Giulia 	A 	9.0 	9.0 	0.0
+15 	Dana 	B 	9.1 	8.0 	-1.1
+16 	Alex 	C 	6.7 	4.0 	-2.7
+17 	Mattheo 	A 	6.8 	7.0 	0.2
+18 	Andreas 	C 	6.8 	5.0 	-1.8
+19 	David 	A 	7.9 	10.0 	2.1m
+# Die folgende Code wurde von ChatGPT am 27.01.2024 generiert.
+
+# In[30]:
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Daten in DataFrame laden
+data = {
+    'Name': ['Silas', 'Yann', 'Pascal', 'Thirushandhini', 'Jannick', 'Dalmika', 'Peter', 'Diego', 'Tom', 'Arwin', 'Valery', 'Stefan', 'Susanne', 'Simon', 'Giulia', 'Dana', 'Alex', 'Mattheo', 'Andreas', 'David'],
+    'Pille': ['C', 'B', 'B', 'C', 'C', 'C', 'B', 'A', 'B', 'C', 'B', 'A', 'B', 'A', 'A', 'B', 'C', 'A', 'C', 'A'],
+    'Vor': [7.3, 8.1, 8.7, 10.0, 6.9, 9.0, 8.1, 8.7, 7.7, 7.8, 7.7, 8.8, 6.7, 10.0, 9.0, 9.1, 6.7, 6.8, 6.8, 7.9],
+    'Nach': [4.0, 6.0, 7.0, 4.0, 3.0, 6.0, 5.0, 6.0, 4.0, 4.0, 7.0, 7.0, 7.0, 9.0, 9.0, 8.0, 4.0, 7.0, 5.0, 10.0],
+    'Unterschied': [-3.3, -2.1, -1.7, -6.0, -3.9, -3.0, -3.1, -2.7, -3.7, -3.8, -0.7, -1.8, 0.3, -1.0, 0.0, -1.1, -2.7, 0.2, -1.8, 2.1]
+}
+
+df = pd.DataFrame(data)
+
+# Boxplot erstellen
+plt.figure(figsize=(10, 6))
+plt.boxplot(df['Unterschied'], vert=False, notch=True, patch_artist=True)
+plt.title('Unterschied gegenüber der Pille')
+plt.xlabel('Unterschied')
+plt.show()
+
+Plotte die Werte in der Spalte Unterschied mit boxplot gruppiert mit der Spalte Pille in der folgenden Tabelle in Python:  
+Name 	Pille 	Vor 	Nach 	Unterschied
+0 	Silas 	C 	7.3 	4.0 	-3.3
+1 	Yann 	B 	8.1 	6.0 	-2.1
+2 	Pascal 	B 	8.7 	7.0 	-1.7
+3 	Thirushandhini 	C 	10.0 	4.0 	-6.0
+4 	Jannick 	C 	6.9 	3.0 	-3.9
+5 	Dalmika 	C 	9.0 	6.0 	-3.0
+6 	Peter 	B 	8.1 	5.0 	-3.1
+7 	Diego 	A 	8.7 	6.0 	-2.7
+8 	Tom 	B 	7.7 	4.0 	-3.7
+9 	Arwin 	C 	7.8 	4.0 	-3.8
+10 	Valery 	B 	7.7 	7.0 	-0.7
+11 	Stefan 	A 	8.8 	7.0 	-1.8
+12 	Susanne 	B 	6.7 	7.0 	0.3
+13 	Simon 	A 	10.0 	9.0 	-1.0
+14 	Giulia 	A 	9.0 	9.0 	0.0
+15 	Dana 	B 	9.1 	8.0 	-1.1
+16 	Alex 	C 	6.7 	4.0 	-2.7
+17 	Mattheo 	A 	6.8 	7.0 	0.2
+18 	Andreas 	C 	6.8 	5.0 	-1.8
+19 	David 	A 	7.9 	10.0 	2.1m
+# In[4]:
+
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Daten in DataFrame laden
+data = {
+    'Name': ['Silas', 'Yann', 'Pascal', 'Thirushandhini', 'Jannick', 'Dalmika', 'Peter', 'Diego', 'Tom', 'Arwin', 'Valery', 'Stefan', 'Susanne', 'Simon', 'Giulia', 'Dana', 'Alex', 'Mattheo', 'Andreas', 'David'],
+    'Pille': ['C', 'B', 'B', 'C', 'C', 'C', 'B', 'A', 'B', 'C', 'B', 'A', 'B', 'A', 'A', 'B', 'C', 'A', 'C', 'A'],
+    'Vor': [7.3, 8.1, 8.7, 10.0, 6.9, 9.0, 8.1, 8.7, 7.7, 7.8, 7.7, 8.8, 6.7, 10.0, 9.0, 9.1, 6.7, 6.8, 6.8, 7.9],
+    'Nach': [4.0, 6.0, 7.0, 4.0, 3.0, 6.0, 5.0, 6.0, 4.0, 4.0, 7.0, 7.0, 7.0, 9.0, 9.0, 8.0, 4.0, 7.0, 5.0, 10.0],
+    'Unterschied': [-3.3, -2.1, -1.7, -6.0, -3.9, -3.0, -3.1, -2.7, -3.7, -3.8, -0.7, -1.8, 0.3, -1.0, 0.0, -1.1, -2.7, 0.2, -1.8, 2.1]
+}
+
+df = pd.DataFrame(data)
+
+# Boxplot erstellen
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Pille', y='Unterschied', data=df, palette='Set3')
+plt.title('Unterschied gegenüber der Pille')
+plt.xlabel('Pille')
+plt.ylabel('Unterschied')
+plt.show()
+

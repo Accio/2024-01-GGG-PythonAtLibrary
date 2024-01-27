@@ -39,7 +39,7 @@ Um die Beispiele zu Hause zu probieren, kann man die Code in [2024-01-PythonAtLi
 
 ## Teil 2: Logik der Programmierung mit Listen, *if-else* , *for* Schleifen, etc.
 
-Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren. Siehe [2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.py](./2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.py).
+Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren. Siehe [2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb](./2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb).
 
 ## Wie kann ich weiter lernen nach der `Python@Library`?
 
