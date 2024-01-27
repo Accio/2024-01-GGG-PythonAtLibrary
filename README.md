@@ -45,4 +45,4 @@ Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns 
 
 Es gibt zahlreiche Resourcen auf dem Internet womit man Python lernen kann. Meisten Resourcen davon sind in Englisch. Ein toller Kurs ist der [*Plotting and Programming in Python*](https://swcarpentry.github.io/python-novice-gapminder/). Die Materialien sind frei zugänglich für alle.
 
-Falls Du Dir weitere Sessionen wie der `Python@Library` wünschst, bitte lass uns wissen. Wir werden uns überlegen, evtl. Folgekurse anzubieten.
+Falls Du Wünsche oder Kritik hast, oder Dir weitere Sessionen wie der `Python@Library` wünschst, bitte lass uns [per Email](mailto:jitao_david.zhang@roche.com) wissen. Wir freuen uns auf jede Rückmeldung.
