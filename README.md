@@ -35,11 +35,11 @@ Der Besuch von Teil 2 ist nur möglich nach Besuch von Teil 1.
 
 Eine Einfürhung in Programmierung und Datenanaylse mit Python.
 
-Um die Beispiele zu Hause zu probieren, kann man die Code in [2024-01-PythonAtLibrary-GGG-Teil1-Entwurf.ipynb](./2024-01-PythonAtLibrary-GGG-Teil1-Entwurf.ipynb) auf [JupyterLab](https://jupyter.org/try-jupyter/lab/) laufen lassen. JupyterLab ist frei zugänglich für alle.
+Um die Beispiele zu Hause zu probieren, kann man die Code in [2024-01-PythonAtLibrary-GGG-Teil1-Entwurf.ipynb](./Entwurf/2024-01-PythonAtLibrary-GGG-Teil1-Entwurf.ipynb) auf [JupyterLab](https://jupyter.org/try-jupyter/lab/) laufen lassen. JupyterLab ist frei zugänglich für alle.
 
 ## Teil 2: Logik der Programmierung mit Listen, *if-else* , *for* Schleifen, etc.
 
-Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren. Siehe [2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb](./2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb).
+Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren. Siehe [2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb](./Entwurf/2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb).
 
 ## Wie kann ich weiter lernen nach der `Python@Library`?
 
