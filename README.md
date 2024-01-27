@@ -16,6 +16,12 @@ bearbeitet haben, um die Analyse und die Visualisierung der Daten zu optimieren,
 * Das Notebook über Liste, *for* und *while* Schleifen, und das *Collatz
 Problem*, ist hier zu finden: [2024-01-PythonAtLibrary-GGG-Teil2-Realisierung.ipynb](./2024-01-PythonAtLibrary-GGG-Teil2-Realisierung.ipynb).
 
+## Wie kann ich weiter lernen nach der `Python@Library`?
+
+Es gibt zahlreiche Resourcen auf dem Internet womit man Python lernen kann. Meisten Resourcen davon sind in Englisch. Ein toller Kurs ist der [*Plotting and Programming in Python*](https://swcarpentry.github.io/python-novice-gapminder/). Die Materialien sind frei zugänglich für alle.
+
+Falls Du Wünsche oder Kritik hast, oder Dir weitere Sessionen wie der `Python@Library` wünschst, bitte lass uns [per Email](mailto:jitao_david.zhang@roche.com) wissen. Wir freuen uns auf jede Rückmeldung.
+
 ## Motivation und Logistik
 
 Der Kurs ist für Schüler in der Sekundarschule zwischen 12 und 16 konzipiert. Das Ziel ist die Interesse an Datenanalyse und Programmierung zu wecken, und einen Eindruck über eine Berufslehre als Informatiker in der Forschung zu vermitteln.
@@ -31,18 +37,3 @@ Der Kurs hat zwei Teile:
 
 Der Besuch von Teil 2 ist nur möglich nach Besuch von Teil 1.
 
-## Teil 1: Eine simulierte klinische Studie: Daten-analyse,-visualisierung, und -interpretation mit Hilfe von JupyterLab
-
-Eine Einfürhung in Programmierung und Datenanaylse mit Python.
-
-Um die Beispiele zu Hause zu probieren, kann man die Code in [2024-01-PythonAtLibrary-GGG-Teil1-Entwurf.ipynb](./Entwurf/2024-01-PythonAtLibrary-GGG-Teil1-Entwurf.ipynb) auf [JupyterLab](https://jupyter.org/try-jupyter/lab/) laufen lassen. JupyterLab ist frei zugänglich für alle.
-
-## Teil 2: Logik der Programmierung mit Listen, *if-else* , *for* Schleifen, etc.
-
-Im 2. Teil des Kurses werden wir mehr darüber lernen, wieso Programmierung uns hilft, repetitiven Arbeit zu automatisieren. Siehe [2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb](./Entwurf/2024-01-PythonAtLibrary-GGG-Teil2-Entwurf.ipynb).
-
-## Wie kann ich weiter lernen nach der `Python@Library`?
-
-Es gibt zahlreiche Resourcen auf dem Internet womit man Python lernen kann. Meisten Resourcen davon sind in Englisch. Ein toller Kurs ist der [*Plotting and Programming in Python*](https://swcarpentry.github.io/python-novice-gapminder/). Die Materialien sind frei zugänglich für alle.
-
-Falls Du Wünsche oder Kritik hast, oder Dir weitere Sessionen wie der `Python@Library` wünschst, bitte lass uns [per Email](mailto:jitao_david.zhang@roche.com) wissen. Wir freuen uns auf jede Rückmeldung.
